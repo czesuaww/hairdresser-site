@@ -1,0 +1,24 @@
+.container{
+    padding: 40px 0;
+    background-color: #e7dbe5;
+}
+
+.title{
+    font-family: "Playwrite BE VLG", cursive;
+    font-size: 3rem;
+}
+
+.right, .left{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+}
+
+.text{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 250px;
+}
