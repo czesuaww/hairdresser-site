@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    background-color: #e7dbe5;
+    height: 100vh;
+}
+
+.firstPic{
+    background-image: url(../../assets/images/logoHair.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+}
+
+.titleSearch{
+    padding-top: 10px;
+    font-size: 1.7rem;
+    font-family: "Playwrite BE VLG", cursive;
+}

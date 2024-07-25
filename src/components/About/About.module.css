@@ -1,0 +1,67 @@
+.offers, .header{
+    font-family: "Playwrite BE VLG", cursive;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.mainImg{
+    background-image: url(../../assets/images/aboutme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.aboutMe{
+    padding: 50px 20px 50px 10px;
+    width: 60%;
+    font-size: 2rem;
+}
+
+.header{
+    font-size: 3rem;
+}
+
+.aboutText{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    padding: 0 30px;
+    padding-top: 40px;
+}
+
+.offers{
+    font-size: 2.5rem;
+    padding-top: 80px;
+    color: gold;
+}
+
+@media screen and (max-width: 790px) {
+    .container{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mainImg{
+        background-position: top;
+        height: 300px;
+    }
+
+    .aboutMe{
+        padding: 10px 20px 50px 10px;
+    }
+
+    .aboutText{
+        padding-top: 20px;
+    }
+    
+    .mainImg, .aboutMe{
+        width: 100%;
+    }
+
+    .offers{
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.searchbar{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 10px;
+    font-size: 1.4rem;
+}
+
+.searchButton{
+    padding: 8px 20px;
+    margin: 20px 0px;
+    border-radius: 15px;
+    border: 1px solid#e3acc6;
+    background-color: #fbd1e5;
+    font-size: 1.5rem;
+    cursor: pointer;
+}   
+
+.arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 80px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}
