@@ -14,11 +14,32 @@
     justify-content: center;
     gap: 150px;
     text-align: center;
+    font-family: "Dancing Script", cursive;
 }
 
 .text{
-    font-family: "Open Sans", sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.8rem;
     width: 250px;
+}
+
+@media screen and (max-width: 790px) {
+    .title{
+        padding-bottom: 20px;
+    }
+
+    .right, .left{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+        gap: 10px;
+    }
+
+    .text{
+        width: unset
+    }
+
+    .left{
+        padding-top: 10px;
+    }
 }
