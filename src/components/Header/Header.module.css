@@ -1,7 +1,6 @@
 .header{
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     background-color: #e7dbe5;
     height: 100vh;
